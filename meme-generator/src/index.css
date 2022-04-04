@@ -24,3 +24,35 @@
   font-weight: 500;
   padding-right: 37px;
 }
+
+main {
+  padding: 36px;
+}
+
+.form {
+  border: none;
+  display: grid;
+  grid-template: 40px 40px / 1fr 1fr;
+  gap: 16px;
+}
+
+.form--button {
+  grid-column: -1 / 1;
+  border-radius: 16px;
+  border: none;
+  background-color: #672280;
+  color: #d5d4d8;
+}
+
+.form--input {
+  border-radius: 16px;
+  text-indent: 5px;
+  border: 1px solid #d5d4d8;
+}
+
+.meme--image {
+  padding-top: 36px;
+  align-self: center;
+  margin-bottom: 55px;
+  border-radius: 5px;
+}
